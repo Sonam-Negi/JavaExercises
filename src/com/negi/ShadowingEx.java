@@ -14,7 +14,8 @@ class A {
 }
 
 class B extends A {
-	public String x = "enemy is the best";
+	public String x = "Enemy is the best";
+	private int i = 8;
 
 	public void printX(float x) {
 		System.out.println("The value of X: " + x);
