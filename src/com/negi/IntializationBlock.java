@@ -3,11 +3,12 @@ package com.negi;
 public class IntializationBlock {
 
 	public static void main(String[] args) {
-		S a = new S("Enemy");
+		S a = new S("Enemy Negi");
 		S a1 = new S();
 		
 		final int sum = a.divide(31, 5);
 		System.out.println(sum);
+		// from next time add proper comments
 		
 	}
 
