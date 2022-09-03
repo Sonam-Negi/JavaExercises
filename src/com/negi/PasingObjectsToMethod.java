@@ -17,7 +17,8 @@ public class PasingObjectsToMethod {
 	public static void print(String data, Integer i, ShadowingEx a) {
 		System.out.println(data);
 		System.out.println(i);
-		a.main(null);
+//		a.main(null); 
+		ShadowingEx.main(null);
 	}
 
 	public void sendMail(String subject, String body, List<String> to) {
